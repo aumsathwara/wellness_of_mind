@@ -1,0 +1,52 @@
+@import url('style.css');
+
+
+.search{
+background-color: #fff;
+width: 45%;
+height: 45%;
+margin: 120px auto;
+text-align: center;
+padding: 20px 0 0 0;
+border-radius: 4px;
+box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.4);
+font-size: 1.6rem;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px;
+    width: 100%;
+    padding: 0 0 0 10px;
+    margin: 0;
+    color: #8a8b8e;
+    border: 1px solid #c2c0ca;
+    font-style: normal;
+    font-size: 16px;
+    appearance: none;
+    position: relative;
+    display: inline-block;
+    background: none;
+  }
+
+#myForm{
+        padding: 60px 60px 60px 60px;
+      }
+
+.image{
+    display: block;
+    margin-left: 30%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.return_home{
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}

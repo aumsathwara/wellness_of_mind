@@ -1,0 +1,47 @@
+@import url('style.css');
+@import url('article.css');
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.box-container .box {
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    padding: 2rem;
+}
+
+.box-container .box .image {
+    height: 20rem;
+    overflow: hidden;
+    border-radius: .5rem;
+}
+
+.box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box-container .box .content {
+    padding-top: 1rem;
+}
+
+.box-container .box .content h3 {
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.box-container .box .content p {
+    color: var(--light-color);
+    font-size: 1.5rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.t_sec{
+    margin-top: 5.5rem;
+}

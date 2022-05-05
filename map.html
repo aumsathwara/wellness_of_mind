@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Maps</title>
+        <link rel="stylesheet" href="css/map.css">
+    </head>
+    <body>
+
+        <header class="header" id="map_header">
+
+            <a href="index.html" class="return_home btn">HOME</a>
+        
+        </header>
+
+        <div class="search">
+            <h2>Enter your area</h2>
+            <form id="myForm" action="">
+
+                <input type="text" name="x" id="area">
+                <button  class="btn" onclick="changeAction()">Search</button>
+        
+            </form>
+        </div>
+
+        <div class="image">
+            <img src="https://media.istockphoto.com/vectors/woman-talking-to-a-psychotherapist-or-psychologist-marriage-and-vector-id1236948739?k=6&m=1236948739&s=170667a&w=0&h=jQLVpEh77Kdo6QL4KTtB4GaMTCsu5pt5C0z8bkEOYTA=" alt="hepling-hand">
+        </div>
+       
+        <script>
+            function changeAction() {
+
+                var x = document.getElementById("area").value;
+                document.getElementById("myForm").action = "https://www.google.com/maps/search/therapists+in+"+x;
+            }
+        </script>
+    </body>
+</html>
